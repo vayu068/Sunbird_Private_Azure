@@ -57,31 +57,31 @@ postgresql-master-1
 postgresql-master
 
 [kafka-1]
-10.0.1.5 kafka_id=1
+10.0.2.38 kafka_id=1
 
 [processing-cluster-kafka]
-10.0.1.5
+10.0.2.38
 
 [kafka:children]
 kafka-1
 
 [processing-cluster-zookeepers]
-10.0.1.5            # Zookeeper IP of processing cluster in Data pipeline
+10.0.2.38           # Zookeeper IP of processing cluster in Data pipeline
 
 [ingestion-cluster-kafka]
-10.0.1.5
+10.0.2.38
 
 [zookeeper:children]
 processing-cluster-zookeepers
 
 [lp-redis]
-10.0.1.5            # Redis master IP of Knowledge platform
+10.0.2.38           # Redis master IP of Knowledge platform
 
 [dp-redis]
-10.0.1.5
+10.0.2.38
 
 [redis-cluster]
-10.0.1.5
+10.0.2.38
 
 [lp-redis-ps:children]
 lp-redis
@@ -126,7 +126,7 @@ yarn-slave
 
 [node-exporter]
 # Add all your VM IP's under this group
-10.1.4.4
+10.0.2.38
 10.1.4.5
 10.1.4.6
 10.1.4.7
