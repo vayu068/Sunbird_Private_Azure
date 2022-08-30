@@ -66,10 +66,10 @@ log-es-1
 10.1.4.5
 
 [yarn-master]
-10.0.1.7
+10.0.2.110
 
 [yarn-slave]
-10.0.1.7     #yarn master is also a yarn slave so we run workloads
+10.0.2.110    #yarn master is also a yarn slave so we run workloads
 
 [yarn:children]
 yarn-master
