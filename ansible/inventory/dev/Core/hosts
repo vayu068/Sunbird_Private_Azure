@@ -4,7 +4,7 @@ ansible_ssh_user=jenkins
 ansible_ssh_private_key_file=/var/lib/jenkins/secrets/deployer_ssh_key
 
 [keycloak-1]
-10.0.1.6
+10.0.2.45
 
 [keycloak:children]
 keycloak-1
@@ -127,7 +127,7 @@ yarn-slave
 [node-exporter]
 # Add all your VM IP's under this group
 10.0.2.38
-10.1.4.5
+10.0.2.45
 10.1.4.6
 10.1.4.7
 10.1.4.8
