@@ -114,11 +114,11 @@ localhost
 10.0.2.254
 
 [yarn-master]
-10.0.1.7
+10.0.2.110
 
 [yarn-slave]
-10.0.1.7     #yarn master
-10.0.1.7
+10.0.2.110     #yarn master
+10.0.2.110
 
 [yarn:children]
 yarn-master
@@ -129,7 +129,7 @@ yarn-slave
 10.0.2.38
 10.0.2.45
 10.0.2.254
-10.1.4.7
+10.0.2.110
 10.1.4.8
 
 [process-exporter:children]
