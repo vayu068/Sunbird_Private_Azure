@@ -43,7 +43,7 @@ core-cassandra
 18.3.1.7
 
 [spark]
-10.0.1.6
+10.0.2.45
 
 [cassandra]
 10.0.1.8
@@ -58,10 +58,10 @@ analytics-api
 cassandra
 
 [kafka-indexer]
-10.0.2.38
+10.0.2.45
 
 [influxdb]
-10.0.1.6
+10.0.2.45
 
 [redis]
 10.0.2.38
