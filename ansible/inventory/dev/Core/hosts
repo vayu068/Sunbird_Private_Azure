@@ -16,7 +16,7 @@ keycloak-1
 log-es-1
 
 [mongo_master]
-10.0.1.8 mongodb_master=True
+10.0.2.254 mongodb_master=True
 
 [mongo_replicas] #add ip in case replicaSet
 
@@ -25,7 +25,7 @@ mongo_master
 mongo_replicas
 
 [es-1]
-10.0.1.8 es_instance_name=es-1 es_etc_node_master=true es_etc_node_data=true
+10.0.2.254 es_instance_name=es-1 es_etc_node_master=true es_etc_node_data=true
 
 [es-backup:children]
 es-1
@@ -37,18 +37,18 @@ log-es-1
 es-1
 
 [es7-1]
-10.10.10.15 es_instance_name=es7-1 es_etc_node_master=true es_etc_node_data=true
+10.0.2.254 es_instance_name=es7-1 es_etc_node_master=true es_etc_node_data=true
 [es7:children]
 es7-1
 
 [cassandra-1]
-10.0.1.8
+10.0.2.254
 
 [cassandra:children]
 cassandra-1
 
 [postgresql-master-1]
-10.0.1.8
+10.0.2.254
 
 [postgresql-master:children]
 postgresql-master-1
@@ -93,13 +93,13 @@ lp-redis-ps
 lp-redis
 
 [learning-neo4j-node1]
-10.0.1.8            # Neo4j ip of Knowledge platform
+10.0.2.254            # Neo4j ip of Knowledge platform
 
 [lp-cassandra]
-10.0.1.8             # cassandra ip of Knowledge platform
+10.0.2.254             # cassandra ip of Knowledge platform
 
 [dp-cassandra]
-10.0.1.8             # cassandra ip of Datapipeline
+10.0.2.254             # cassandra ip of Datapipeline
 
 [local]
 localhost ansible_connection=local
@@ -111,7 +111,7 @@ localhost ansible_connection=local
 localhost
 
 [composite-search-cluster]
-10.0.1.8
+10.0.2.254
 
 [yarn-master]
 10.0.1.7
@@ -128,7 +128,7 @@ yarn-slave
 # Add all your VM IP's under this group
 10.0.2.38
 10.0.2.45
-10.1.4.6
+10.0.2.254
 10.1.4.7
 10.1.4.8
 
