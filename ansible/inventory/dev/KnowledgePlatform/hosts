@@ -29,7 +29,7 @@ dial1
 10.0.2.38
 
 [learning-neo4j-node1]
-10.0.1.8
+10.0.2.254
 
 # Enable following host, if you're have neo4j cluster and an arbiter for election
 # [arbiter]
@@ -39,19 +39,19 @@ dial1
 learning-neo4j-node1
 
 [cassandra-node-1]
-10.0.1.8
+10.0.2.254
 
 [cassandra:children]
 cassandra-node-1
 
 [dp-cassandra]
-10.0.1.8
+10.0.2.254
 
 [core-cassandra]
-10.0.1.8
+10.0.2.254
 
 [core-es-1]
-10.0.1.8    # This should be elasticsearch master IP of Core
+10.0.2.254    # This should be elasticsearch master IP of Core
 
 [core-es:children]
 core-es-1
