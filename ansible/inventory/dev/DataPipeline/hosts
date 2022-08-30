@@ -33,7 +33,7 @@ log-es-1
 10.0.1.8
 
 [lp-redis]
-10.0.1.5
+10.0.2.38
 
 ################# DP #########################
 [report-cassandra:children]
@@ -58,22 +58,22 @@ analytics-api
 cassandra
 
 [kafka-indexer]
-10.0.1.6
+10.0.2.38
 
 [influxdb]
 10.0.1.6
 
 [redis]
-10.0.1.5
+10.0.2.38
 
 [redisall:children]
 redis
 
 [processing-cluster-kafka]
-10.0.1.5
+10.0.2.38
 
 [processing-cluster-zookeepers]
-10.0.1.5
+10.0.2.38
 
 [ingestion-cluster-kafka:children]
 processing-cluster-kafka
@@ -112,7 +112,7 @@ raw-coordinator
 10.0.1.9
 
 [raw-zookeeper]
-10.0.1.9
+10.0.2.38
 
 [druid-raw:children]
 raw-coordinator
