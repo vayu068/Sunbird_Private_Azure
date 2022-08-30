@@ -57,13 +57,13 @@ cassandra-node-1
 core-es-1
 
 [log-es-1]
-10.0.1.9
+10.0.2.159
 
 [log-es:children]
 log-es-1
 
 [composite-search-cluster]
-10.1.4.5
+10.0.2.254
 
 [yarn-master]
 10.0.2.110
