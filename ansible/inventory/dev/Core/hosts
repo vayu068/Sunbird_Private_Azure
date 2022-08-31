@@ -156,7 +156,7 @@ local
 10.0.0.45
 
 [dp-druid-broker]
-0.0.0.0                # Druid broker IP for druid proxy api
+10.0.2.159                # Druid broker IP for druid proxy api
 
 [raw-coordinator]
-0.0.0.0                # Druid coordinator IP for druid proxy api
+10.0.2.159               # Druid coordinator IP for druid proxy api
