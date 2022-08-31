@@ -4,7 +4,7 @@
 domain_name: "example.com"                  # your domain name like example.com
 dockerhub: "vayu068"   # docker hub username or url incase of private registry
 # This ip should be in the kubenetes subnet range. For example, if your kube cluster is running in `10.0.0.0/24, then it can be 10.0.0.5. Make sure this ip is not allocated to any other things.`
-private_ingressgateway_ip: "10.0.2.10"     # your private kubernetes load balancer ip
+private_ingressgateway_ip: "10.233.0.10"     # your private kubernetes load balancer ip
 
 # For sendgrid, if you want to change, update the following
 mail_server_host: "smtp.sendgrid.net"                               # Email host, can be any email provider
