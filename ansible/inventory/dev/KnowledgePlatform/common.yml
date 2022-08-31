@@ -2,7 +2,7 @@
 # Mandatorty variables - DO NOT LEAVE ANYTHING BLANK #
 # docker hub details
 dockerhub: "vayu068"                 # docker hub username or url incase of private registry
-private_ingressgateway_ip: "10.233.0.10" # your private kubernetes load balancer ip
+private_ingressgateway_ip: "10.233.0.15" # your private kubernetes load balancer ip
 domain_name: "example.com"               # your domain name like example.com
 # Note - You can use the same azure account for the below variables or have separate azure accounts
 sunbird_public_storage_account_name: "sbinstallation"             # Azure account name for storing public data (like contents)
