@@ -42,7 +42,7 @@ nginx_private_ingress_annotations:
 ## Optional
 
 learningservice_ip: "10.0.1.5"             # Load balancer IP or server ip
-keycloak_url: "http://10.0.1.6:8080"       # Keycloak Load balancer IP; eg http://10.10.10.10 or VM IP with port like http://10.10.10.10:8080
+keycloak_url: "http://10.0.2.45:8080"       # Keycloak Load balancer IP; eg http://10.10.10.10 or VM IP with port like http://10.10.10.10:8080
 env: dev                  # some name like dev, preprod etc
 proto: https               # http or https, preferably https
 sunbird_default_channel: sunbird                # default sunbird channel name
