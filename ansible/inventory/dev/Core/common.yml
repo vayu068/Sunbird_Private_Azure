@@ -240,7 +240,7 @@ grafana_nginx_private_htpasswd: "admin:$apr1$0cvibtr7$.t.k7JiKkrlQY124kLROe."
 grafana_admin_user_http_header: "X-privateSecretHeader-Auth"
 
 grafana_google_oauth_client_id: "812585265146-05kihuep69gmq3p5qv369j5i0hqkb5ah.apps.googleusercontent.com"
-grafana_google_oauth_client_secret: "xxxxxxxxxxxxxxxxxxxxxxxx"
+grafana_google_oauth_client_secret: "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"
 
 # New line sperated list of users.
 # For example:
