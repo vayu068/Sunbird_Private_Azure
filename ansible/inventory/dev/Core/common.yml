@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------------------------------------ #
 # Mandatorty variables - DO NOT LEAVE ANYTHING BLANK #
 # ------------------------------------------------------------------------------------------------------------ #
-domain_name: "example.com"                  # your domain name like example.com
+domain_name: "sunbird.cms.cloudevangelist.in"                  # your domain name like example.com
 dockerhub: "vayu068"   # docker hub username or url incase of private registry
 # This ip should be in the kubenetes subnet range. For example, if your kube cluster is running in `10.0.0.0/24, then it can be 10.0.0.5. Make sure this ip is not allocated to any other things.`
 private_ingressgateway_ip: "internal-ab52923d23e7040989b83b31c6d2c7ac-90249562.ap-south-1.elb.amazonaws.com"     # your private kubernetes load balancer ip
@@ -41,7 +41,7 @@ nginx_private_ingress_annotations:
 
 ## Optional
 
-learningservice_ip: "10.0.1.5"             # Load balancer IP or server ip
+learningservice_ip: "10.0.2.38"             # Load balancer IP or server ip
 keycloak_url: "http://10.0.2.45:8080"       # Keycloak Load balancer IP; eg http://10.10.10.10 or VM IP with port like http://10.10.10.10:8080
 env: dev                  # some name like dev, preprod etc
 proto: https               # http or https, preferably https
