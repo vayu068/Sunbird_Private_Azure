@@ -39,6 +39,15 @@ nginx_private_ingress_annotations:
 
 # ------------------------------------------------------------------------------------------------------------ #
 
+analytics_opa_enabled: false
+certregistry_opa_enabled: false
+content_opa_enabled: false
+knowledgemw_opa_enabled: false
+learner_opa_enabled: false
+lms_opa_enabled: false
+notification_opa_enabled: false
+report_opa_enabled: false
+
 ## Optional
 
 learningservice_ip: "10.0.2.38"             # Load balancer IP or server ip
