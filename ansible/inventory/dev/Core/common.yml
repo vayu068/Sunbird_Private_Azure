@@ -74,11 +74,11 @@ sunbird_msg_sender:                              # SMS from Address; exact 6 cha
 # **Optional variables** - Can be left blank if you dont plan to use the intended features
 #
 # ------------------------------------------------------------------------------------------------------------ #
-kibana_oauth_authenticated_email_domains_kube: '["domain.com","domain1.com"]'   # whitelisted domains for accessing kibana
+kibana_oauth_authenticated_email_domains_kube: '["sunbird.cms.cloudevangelist.in","sunbird.cms.cloudevangelist.in"]'   # whitelisted domains for accessing kibana
 # whitelisted email ids for access kibana
 kibana_oauth_authenticated_email_ids:
-  - email1
-  - email2
+  - vayu068@gmail.com
+  - pawan068@gmail.com
 sunbird_env_logo_url:                           # A public url for logo, this logo url will be used in emails
 monitor_alerts_slack_channel:           # Slack channel to receive alerts from monitoring stack
 
