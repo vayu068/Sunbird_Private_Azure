@@ -153,12 +153,14 @@ kong_all_consumer_groups:
   - badgeCreate
   - badgeUpdate
   - certificateAccess
+  - certificateAdmin
   - certificateCreate
   - certificateUpdate
   - channelAccess
   - channelAdmin
   - channelCreate
   - channelUpdate
+  - cloudUrlsCreate
   - contentAccess
   - contentAdmin
   - contentCreate
@@ -171,6 +173,7 @@ kong_all_consumer_groups:
   - courseUpdate
   - dataAccess
   - dataCreate
+  - deleteNotificationFeed
   - desktopAdmin
   - desktopSuperAdmin
   - deviceCreate
@@ -213,6 +216,10 @@ kong_all_consumer_groups:
   - noteAdmin
   - noteCreate
   - noteUpdate
+  - objectAccess
+  - observationAccess
+  - observationCreate
+  - observationUpdate
   - orgAccess
   - orgAdmin
   - orgCreate
@@ -223,14 +230,23 @@ kong_all_consumer_groups:
   - pageUpdate
   - pluginAccess
   - portalAdmin
+  - programAccess
+  - projectAccess
+  - projectCreate
+  - projectUpdate
+  - readNotificationFeed
   - refreshTokenCreate
   - reportsAccess
   - reportsAdmin
   - reportsCreate
   - reportsUpdate
+  - solutionAccess
   - ssoAdmin
   - ssoCreate
+  - surveyAccess
+  - surveyUpdate
   - telemetryCreate
+  - updateNotificationFeed
   - userAccess
   - userAdmin
   - userCreate
@@ -238,7 +254,7 @@ kong_all_consumer_groups:
   - userSuperAdmin
   - userTempAdmin
   - userUpdate
-
+  
 kong_consumers:
   - username: api-admin
     groups: "{{ kong_all_consumer_groups }}"
