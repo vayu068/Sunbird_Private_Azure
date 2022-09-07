@@ -258,7 +258,7 @@ grafana_google_oauth_client_secret: "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"
 #   user1@gmail.com
 #   user2@yahoo.com
 grafana_login_whitelisted_emails: |-
-  user@dummy.local
+  vayu068@gmail.com
 
 #Add below var to monitor report-cassandra server
 report_cassandra_server_count: "{{ groups['report-cassandra'] | length }}"
