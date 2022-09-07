@@ -136,6 +136,14 @@ freshDesk_token: ""
 # Provide the admin-api consumer access to all API's - The public repo restricts this for security reasons
 # If you dont want to key to have access to all API's, please remove the variables kong_all_consumer_groups and kong_consumers or edit the groups to have a smaller subset
 kong_all_consumer_groups:
+  - announcementAccess
+  - anonymousAppAccess
+  - anonymousCertificateAccess
+  - anonymousContentAccess
+  - anonymousCourseAccess
+  - anonymousOrgAccess
+  - anonymousUserAccess
+  - anonymousUserCreate
   - appAccess
   - appAdmin
   - appCreate
